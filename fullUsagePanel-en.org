@@ -11,22 +11,98 @@
 ####+END
 ####+BEGIN: blee:bxPanel:title :panelType "=bxPanel=" :title "auto"
 * [[elisp:(show-all)][(>]] ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 
-*   [[img-link:file:/bisos/blee/env/images/fpfByStarElipseTop-50.png][http://www.freeprotocols.org]]_ _   ~Leaf:: bxRepos/blee-binders -- panelsRoot~   [[img-link:file:/bisos/blee/env/images/fpfByStarElipseBottom-50.png][http://www.by-star.net]]
+*   [[img-link:file:/bisos/blee/env/images/fpfByStarElipseTop-50.png][http://www.freeprotocols.org]]_ _   ~Leaf:: bisos/panels -- panelsRoot~   [[img-link:file:/bisos/blee/env/images/fpfByStarElipseBottom-50.png][http://www.by-star.net]]
 * ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━  [[elisp:(org-shifttab)][<)]] E|
 ####+END:
 ####+BEGIN: blee:bxPanel:terseTreeNavigator :panelsList "bxPanel"
 * [[elisp:(show-all)][(>]] [[elisp:(describe-function 'org-dblock-write:blee:bxPanel:terseTreeNavigator)][dbf]]
 * [[elisp:(show-all)][|n]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_   General Panels ::   [[img-link:file:/bisos/blee/env/images/bystarInside.jpg][http://www.by-star.net]] *|*  [[elisp:(find-file "/libre/ByStar/InitialTemplates/activeDocs/listOfDocs/fullUsagePanel-en.org")][BxDE Top Panel]] *|* [[elisp:(blee:bnsm:panel-goto "/libre/ByStar/InitialTemplates/activeDocs/planning/Main")][ByStar Planning]]
 
-*   =Sibling Panles=   :: [[elisp:(blee:bnsm:panel-goto "/bisos/git/bxRepos/blee-binders/bisos-apps/_nodeBase_")][ =bisos-apps= ]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/git/bxRepos/blee-binders/bisos-core/_nodeBase_")][ =bisos-core= ]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/git/bxRepos/blee-binders/bisos-dev/_nodeBase_")][ =bisos-dev= ]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/git/bxRepos/blee-binders/bisos-model/_nodeBase_")][ =bisos-model= ]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/git/bxRepos/blee-binders/bisos-periphery/_nodeBase_")][ =bisos-periphery= ]] *|* 
-*   =Sibling Panles=   :: [[elisp:(blee:bnsm:panel-goto "/bisos/git/bxRepos/blee-binders/blee-core/_nodeBase_")][ =blee-core= ]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/git/bxRepos/blee-binders/blee-dev/_nodeBase_")][ =blee-dev= ]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/git/bxRepos/blee-binders/blee-model/_nodeBase_")][ =blee-model= ]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/git/bxRepos/blee-binders/bxde-core/_nodeBase_")][ =bxde-core= ]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/git/bxRepos/blee-binders/bxde-dev/_nodeBase_")][ =bxde-dev= ]] *|* 
-*   =Sibling Panles=   :: [[elisp:(blee:bnsm:panel-goto "/bisos/git/bxRepos/blee-binders/bxde-model/_nodeBase_")][ =bxde-model= ]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/git/bxRepos/blee-binders/espoused/_nodeBase_")][ =espoused= ]] *|* 
+*   *Siblings*   :: [[elisp:(blee:bnsm:panel-goto "/bisos/panels/bisos-apps/_nodeBase_")][ =bisos-apps= ]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/panels/bisos-core/_nodeBase_")][ =bisos-core= ]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/panels/bisos-dev/_nodeBase_")][ =bisos-dev= ]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/panels/bisos-model/_nodeBase_")][ =bisos-model= ]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/panels/bisos-periphery/_nodeBase_")][ =bisos-periphery= ]] *|* 
+*   *Siblings*   :: [[elisp:(blee:bnsm:panel-goto "/bisos/panels/bisos-svcs/_nodeBase_")][ =bisos-svcs= ]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/panels/blee-core/_nodeBase_")][ =blee-core= ]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/panels/blee-dev/_nodeBase_")][ =blee-dev= ]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/panels/blee-model/_nodeBase_")][ =blee-model= ]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/panels/bxde-core/_nodeBase_")][ =bxde-core= ]] *|* 
+*   *Siblings*   :: [[elisp:(blee:bnsm:panel-goto "/bisos/panels/bxde-dev/_nodeBase_")][ =bxde-dev= ]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/panels/bxde-model/_nodeBase_")][ =bxde-model= ]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/panels/connectivity/_nodeBase_")][ =connectivity= ]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/panels/desktop/_nodeBase_")][ =desktop= ]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/panels/espoused/_nodeBase_")][ =espoused= ]] *|* 
+*   *Siblings*   :: [[elisp:(blee:bnsm:panel-goto "/bisos/panels/non-libre-halaal/_nodeBase_")][ =non-libre-halaal= ]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/panels/overview")][overview]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/panels/panelsRoot")][panelsRoot]] *|* 
+*   /Ancestors/  :: [[elisp:(blee:bnsm:panel-goto "/bisos/panels/_nodeBase_")][ =panels= ]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos")][bisos]] *|* 
+*                                   _━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━_                          [[elisp:(org-shifttab)][<)]] E|
 ####+END
 ####+BEGIN: blee:bxPanel:foldingSection :outLevel 1 :title "Overview" :anchor "Panel"
 * [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_       [[elisp:(org-cycle)][| *Overview:* |]] <<Panel>>   [[elisp:(org-shifttab)][<)]] E|
 ####+END
 ** 
 ** Overview Comes Here.
+** B|
+####+BEGIN: blee:bxPanel:foldingSection :outLevel 0 :sep t :title "Development Plans" :anchor "" :extraInfo ""
+* /[[elisp:(beginning-of-buffer)][|^]]  [[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]] [[elisp:(delete-other-windows)][|1]]/ 
+* [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_     [[elisp:(org-cycle)][| _Development Plans_: |]]    [[elisp:(org-shifttab)][<)]] E|
+####+END
+** 
+* Chapter 0  -- [2021-01-17 Sun 22:29] /Mohsen's BxEs and Usage/
+* Phase 0.1 -- 2 Days
+** Create superSiteNedaOps project
+* *Chapter 1*  -- [2021-01-12 Tue 15:20] /Stable Minimal BxO Services/
+* Phase 1 -- 4 days
+** DONE Create mbBisosDev BxE
+** Use bisp-9001 to create IP addr for Sys
+** Revisit pic_dnsServer sysChar
+** Revisit materializeSysChar.sh and create -niche.sh and vagrant file creator.
+** Create dhcp-server as service -- create the serviceBxE
+** Move data from existing to new server
+** Initiate adoption of Debian 10
+* Phase 2 -- 2 days
+** Disable vagrant and intra logins
+** test end-to-end based on built from scratch
+* Phase 3 -- 1 day
+** Move the gitlab server to a static ip address
+* Phase 4 -- 3 days
+** Build a dns server from scratch
+** Replace existing DNS servers
+* Phase 5 -- 5 days
+** Build a mail server from scratch
+** Build a plone server from scratch
+** Move an existing Plone site to the new plone server
+* Phase 6 -- 5 days
+** Move mohsen as BxO
+** Move andrew as BxO
+** Move dany as BxO
+** Move exisiting Plone sites as new BxOs
+* Phase 7 -- 3 days
+** Setup permanent hosts for VMs -- Move things to permanent setup
+* Phase 8 -- 3 days  -- _Total: 26 days_
+** Convert /lcnt to BxOs
+** Setup polyexistential BxO
+** Setup NSF BxO
+* *Chapter 2*
+* Phase 8.1 -- 10 days  /Initial Publishable Polyexistentials/
+** Bring 120033 to minimum publishable.
+* Phase 9 -- 3 days
+** Update blee for python usage and browser interface
+* Phase 10 -- 3 days
+** Convert py2 to py3
+* Phase 11 -- 3 days
+** Modernize blee panel facilities
+** Convert all existing panels to new panels
+* Phase 12 -- 5 days
+** Cleanup blee for release including Python and Bash and Lisp and LaTeX COMEEGA
+** Cleanup existing Python and Bash and Lisp and LaTeX scripts
+* Phase 13 -- 5 days
+** Revisit blee mail system
+* Phase 14 -- 15 days
+** Build new sites -- update exisiting content
+* Phase 15 -- 5 days
+** Create a web services framework for ByStar
+** Create registrars based on the web services
+* Phase 16 -- 15 days
+** Create a django framework for bystar
+** Revive ByName factory based on the django framework
+* Phase 17 -- 4 days
+** Create a public readonly gitlab server
+** Create a read-write gitlab server
+* Phase 18 -- 10 days  /Direct Inter-Autonomous Relations Services/
+** Adopt oauth Direct Inter-Autonomous Relations
+** Provide ability to create mailing lists
+* Phase 19 -- 10 days /Federated Services/
+** Build ByTopic etc
+** 
 ** B|
 ####+BEGIN: blee:bxPanel:foldingSection :outLevel 1 :sep t :title "Panel Tree Navigation" :anchor "panelTreeNav" :extraInfo ""
 * /[[elisp:(beginning-of-buffer)][|^]]  [[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]] [[elisp:(delete-other-windows)][|1]]/ 
