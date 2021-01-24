@@ -39,6 +39,7 @@
 * Chapter 0  -- [2021-01-17 Sun 22:29] /Mohsen's BxEs and Usage/
 * Phase 0.1 -- 2 Days
 ** Create superSiteNedaOps project
+** Create dynamic menu for BxOs.
 * *Chapter 1*  -- [2021-01-12 Tue 15:20] /Stable Minimal BxO Services/
 * Phase 1 -- 4 days
 ** DONE Create mbBisosDev BxE
